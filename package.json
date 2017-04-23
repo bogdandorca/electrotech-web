@@ -1,0 +1,15 @@
+{
+  "name": "node-chat-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Bogdan <bogdandorca@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-static": "^3.0.0"
+  }
+}

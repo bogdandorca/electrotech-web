@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title">Chat</h1>
+            <p id="user-info"></p>
+        </div>
+        <div class="display-area">
+            <div id="chat-window"></div>
+        </div>
+
+        <div class="action-area">
+            <textarea name="chat" id="chat-input" cols="30" rows="10"></textarea>
+            <button id="chat-submit">Send</button>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+
+    <script src="./script.js"></script>
+</html>
