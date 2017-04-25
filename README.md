@@ -1,4 +1,4 @@
-# node-chat-client
+# Electrotech Web
 
 ## Set-up
 
