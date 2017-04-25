@@ -4,7 +4,7 @@
 
 In order to run this project:
 
-1. Clone the repository *git clone https://github.com/bogdandorca/node-chat-client*
+1. Clone the repository *git clone https://github.com/bogdandorca/electrotech-web*
 
 2. Using the cli, navigate inside the application folder
 
